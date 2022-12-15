@@ -73,6 +73,8 @@
   font-style: normal;
 }
 
+@import './header';
+
 :root {
   --darkblue: #010223;
   --verydarkblue: #030522;
@@ -85,6 +87,8 @@
  --blackRussian: #1B1B1C;
 }
 
+
+
 *,
 *::before,
 *::after {
@@ -95,5 +99,16 @@
 
 body {
   font-family: 'Montserrat', 'Inter', 'Rubik', sans-serif;
+}
 
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
 }
