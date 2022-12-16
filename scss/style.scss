@@ -74,6 +74,7 @@
 }
 
 @import './header';
+@import './features';
 
 :root {
   --darkblue: #010223;
@@ -85,6 +86,7 @@
   --gray: #a7a7a7;
   --blackPearl: #011736;
  --blackRussian: #1B1B1C;
+ --VeryDarkGrayishBlue: #5a5c6e;
 }
 
 
@@ -99,6 +101,7 @@
 
 body {
   font-family: 'Montserrat', 'Inter', 'Rubik', sans-serif;
+  font-size: 16px;
 }
 
 
@@ -111,4 +114,19 @@ body {
   max-width: 1240px;
   padding: 0 20px;
   margin: 0 auto;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 56px;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: var(--brightblue);
+  color: var(--white);
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 15px 20px 0 rgba(49, 62, 247, .3);
 }
